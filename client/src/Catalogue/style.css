@@ -1,0 +1,40 @@
+.sort {
+  display: flex;
+  margin: 10px;
+  max-width: max-content;
+  padding: 5px;
+}
+.sort > p {
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  padding: 10px;
+  margin-right: 10px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.sort > p:hover {
+  background: blue;
+  color: white;
+}
+
+.sort > p:focus {
+  color: blue;
+}
+
+.paginationDiv {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.sort-filter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.filter > button {
+  margin-right: 10px;
+}

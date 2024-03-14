@@ -1,0 +1,50 @@
+.register-form,
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #b8b6b6;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.user-details-group-1 {
+  display: flex;
+}
+
+.register-form,
+.login-form > input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.login-submit-btn {
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.loginSubmitBtn:hover {
+  background-color: #3e8e41;
+}
+
+.password-condition {
+  width: 100%;
+  line-height: normal;
+  color: green;
+}

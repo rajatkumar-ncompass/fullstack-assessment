@@ -1,0 +1,11 @@
+.product-card {
+  cursor: pointer;
+}
+.card-image > img {
+  object-fit: contain;
+}
+
+.check-div
+{
+  display: flex;
+}
